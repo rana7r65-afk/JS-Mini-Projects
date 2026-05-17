@@ -1,0 +1,63 @@
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+#generate-table-btn {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: background 0.2s;
+}
+
+#generate-table-btn:hover {
+    background-color: #0ea5e9;
+}
+
+/* الكلاس الخاص بالجدول المذكور في الكود */
+.data-table {
+    color: #ffffff;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* تنسيق عناوين الجدول لجعلها مثل المعاينة */
+.data-table th {
+    background-color: #0f172a;
+    color: #38bdf8;
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* كلاسات الألوان للحالات (Status) المتواجدة بالمعاينة */
+.Active { color: #4ade80; font-weight: bold; }
+.Pending { color: #fbbf24; font-weight: bold; }
+.Inactive { color: #f87171; font-weight: bold; }

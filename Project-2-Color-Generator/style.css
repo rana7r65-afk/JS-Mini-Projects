@@ -1,0 +1,71 @@
+body {
+    background-color: #0f172a; /* خلفية داكنة مثل الصورة */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+#generate-btn {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: background 0.2s;
+}
+
+#generate-btn:hover {
+    background-color: #0ea5e9;
+}
+
+/* حاوية الألوان المستوحاة من المعاينة */
+.palette-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* تصميم بوكس اللون المأخوذ من دالة createColorBox */
+.color-box {
+    width: 100px;
+    height: 180px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8); /* لضمان وضوح النص فوق أي لون */
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.color-box:hover {
+    transform: scale(1.05);
+}

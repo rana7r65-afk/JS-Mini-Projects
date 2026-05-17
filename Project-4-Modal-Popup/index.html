@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project 4: Modal/Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-content">
+        <h1>Mini-Project 4: Modal/Popup</h1>
+        <button id="openBtn">Open Modal</button>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-header">
+            <h3>Modal Title</h3>
+            <span id="closeBtn" class="close-x">&times;</span>
+        </div>
+        <div class="modal-body">
+            <p>This is the modal content. You can put any HTML content here including forms, images, or text.</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-confirm">Confirm</button>
+            <button class="btn btn-cancel">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
